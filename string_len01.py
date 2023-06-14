@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    n = len(a)
+    return n
+print(main("Codeacademy"))
