@@ -7,4 +7,7 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    x1 = "manu"
+    x2 = "aziz"
+    return len(x1)==len(x2)
+print(main('manu','aziz'))
