@@ -8,4 +8,5 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    return s[0] == s[-1]
+print(main('cfc'))

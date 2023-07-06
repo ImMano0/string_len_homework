@@ -8,4 +8,17 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    l1 = (len(s1)+1) % 2
+    l2 = (len(s2)+1) % 2
+    l3 = (len(s3)+1) % 2
+    
+    if l1 == 1 and l2 == 1:
+        odd = s1 , s2
+    if l1 == 1 and l3 == 1:
+        odd = s1 , s3
+    if l2 == 1 and l3 == 1:
+        odd = s2 , s3
+    if l1 == 1 and l2 == 1 and l3 == 1:
+        odd = s1 , s2 , s3
+    return [odd]
+print(main("long" , "middle of the night", "sign"))
